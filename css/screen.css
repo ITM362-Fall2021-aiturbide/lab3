@@ -94,6 +94,7 @@ form li {
 #age-verification + label {
   display: block;
   padding-left: 20px;
+  float: left;
 }
 
 /*.hasjs class will only exist if js runs*/
