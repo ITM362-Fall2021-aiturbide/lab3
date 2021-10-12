@@ -15,6 +15,19 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
+html {
+font-family: 'Bowlby One', cursive;
+font-size: 1.375em;
+line-height: 1.182em;
+padding: 1.182em;
+}
+h1, p{
+  padding-bottom: 1.182em;
+}
+
+label {
+  display: block;
+}
 
 button,
 input,
