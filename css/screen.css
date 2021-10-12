@@ -33,7 +33,7 @@ html {
 }
 
 h1, p {
-  padding-bottom: 1.282em; /* 26px / ~ 120% */
+  padding: 1.282em; /* 26px / ~ 120% */
 	background-color:#AAAAAA;
 	font-size: 1.7em;
 	line-height:1em;
@@ -45,7 +45,7 @@ label {
 
 input {
   box-sizing: border-box;
-  width: 100%;
+  width: auto;
   height: 78px;
   padding: 26px;
   border: 0;
@@ -56,10 +56,6 @@ input {
   background-color: #AAAAAA;
 }
 
-span {
-  display: block;
-  padding-top: 0.5em;
-}
 
 #input-submit {
   width: 100%;
