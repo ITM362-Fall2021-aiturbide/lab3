@@ -51,7 +51,7 @@ label {
 
 input {
   box-sizing: border-box;
-  width: auto;
+  width: 100%;
   height: 78px;
   padding: 26px;
   border: 0;
@@ -108,7 +108,6 @@ form li {
 .hasjs #input-email label {
   color: black;
   transition: top 1s;
-  position: absolute;
   top: 26px;
   left: 100px;
 }
