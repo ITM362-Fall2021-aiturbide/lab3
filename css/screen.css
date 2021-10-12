@@ -24,7 +24,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 body {
-  background-color: #616161;
+  background-color: #464646;
   text-align: center;
 }
 html {
@@ -32,13 +32,19 @@ html {
   font-size: 1.475em; /* 22px */
 }
 
-h1, p {
+h1{
   padding: 1.282em; /* 26px / ~ 120% */
-	background-color:#AAAAAA;
+	background-color:#7E7E7E;
 	font-size: 1.7em;
 	line-height:1em;
 }
+p {
+  padding: 1.282em; /* 26px / ~ 120% */
+  font-size: 1.7em;
+  line-height:1em;
+  background-color:#AAAAAA;
 
+}
 label {
   display: block;
 }
